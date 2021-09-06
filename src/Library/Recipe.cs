@@ -24,7 +24,12 @@ namespace Full_GRASP_And_SOLID.Library
         {
             this.steps.Remove(step);
         }
-
+        
+        
+        /*
+        La receta va a ser la responsable de calcular del precio total, ya que es quien tiene la cantidad de pasos necesarios
+        para poder completarla
+        */
         public double GetProductsCost()
         {
             double total = 0;
